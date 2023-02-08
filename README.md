@@ -14,7 +14,7 @@ The project is a dashboard built in React and Typescript with search and filter 
 
 # Screenshots
 
-<details><summary>Landing</summary>
+<details><summary>Landing Page</summary>
 <p>
 <img src="./.readme/1.png" >
 </p>
