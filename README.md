@@ -1,12 +1,10 @@
 # Table of Contents
 
 - [About the project](#About-the-project)
-- [Live Demo](#Live-Demo)
 - [Screenshots](#Screenshots)
 - [Functionality](#Functionality)
 - [Technologies](#Technologies)
 - [How to run](#How-to-run)
-- [How to test](#How-to-run-tests)
 
 # About the project
 
@@ -62,7 +60,7 @@ $ git clone https://github.com/Bascil/react-material-ui-dashboard.git
 $ cd react-material-ui-dashboard
 # Install dependancies
 $ npm i
-# npm run to start the server
+# npm start to start the server
 $ npm start
 
 ```
