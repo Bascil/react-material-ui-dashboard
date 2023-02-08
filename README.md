@@ -1,47 +1,68 @@
-# Getting Started with Create React App
+# Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [About the project](#About-the-project)
+- [Live Demo](#Live-Demo)
+- [Screenshots](#Screenshots)
+- [Functionality](#Functionality)
+- [Technologies](#Technologies)
+- [How to run](#How-to-run)
+- [How to test](#How-to-run-tests)
 
-## Available Scripts
+# About the project
 
-In the project directory, you can run:
+The project is a dashboard built in React and Typescript with search and filter capabilities
 
-### `npm start`
+# Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<details><summary>Landing</summary>
+<p>
+<img src="./.readme/1.png" >
+</p>
+</details>
+<details><summary>Table Data</summary>
+<p>
+<img src="./.readme/2.png" >
+</p>
+</details>
+<details><summary>Filter Panel</summary>
+<p>
+<img src="./.readme/3.png" >
+</p>
+</details>
+<details><summary>Search Result</summary>
+<p>
+<img src="./.readme/4.png" >
+</p>
+</details>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<details><summary>Search Result 2</summary>
+<p>
+<img src="./.readme/5.png" >
+</p>
+</details>
 
-### `npm test`
+# Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] Ability to search by orderNo, itemNo, category and type
+- [x] Ability to display filtered search results
 
-### `npm run build`
+# Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://create-react-app.dev/)
+- [Typescript](hhttps://www.typescriptlang.org/)
+- [MaterialUI](https://mui.com/)
+- [Redux](https://redux.js.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# How to run
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone the repo
+$ git clone https://github.com/Bascil/react-material-ui-dashboard.git
+# cd to the project directory
+$ cd react-material-ui-dashboard
+# Install dependancies
+$ npm i
+# npm run to start the server
+$ npm start
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# react-material-ui-dashboard
+```
