@@ -47,7 +47,7 @@ The project is a dashboard built in React and Typescript with search and filter 
 # Technologies
 
 - [React](https://create-react-app.dev/)
-- [Typescript](hhttps://www.typescriptlang.org/)
+- [Typescript](https://www.typescriptlang.org/)
 - [MaterialUI](https://mui.com/)
 - [Redux](https://redux.js.org/)
 
